@@ -1,0 +1,50 @@
+---
+import { basics } from '@cv';
+import Section from '@/components/Section.astro';
+import GitHub from '@/icons/GitHub.astro';
+import LinkedIn from '@/icons/LinkedIn.astro';
+import Mail from '@/icons/Mail.astro';
+import Phone from '@/icons/Phone.astro';
+import Location from '@/icons/Location.astro';
+
+const { name, label, image, location, profiles, phone, email } = basics;
+const { city, region } = location;
+---
+
+<Section>
+    <div class="container">
+        <div class="info">
+            <h1> {name} </h1>
+            <h2> {label} </h2>
+            <span>
+                <!-- Robar icono  -->
+                {city}, {region}
+            </span>
+            <footer>
+                {
+                    email &&
+                        <a
+                            href={`mailto:${email}`}
+                            title={`Send email to ${email}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <!-- Robar icono -->
+                        </a>
+                }
+            </footer>
+        </div>
+
+        <figure>
+            <img src={image} alt={name} />
+        </figure>
+        <GitHub />
+        <LinkedIn />
+        <Mail />
+        <Phone />
+        <Location />
+    </div>
+</Section>
+
+<style>
+</style>
