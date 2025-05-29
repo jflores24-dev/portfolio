@@ -1,5 +1,6 @@
 <html lang = "es">
 	<head>
+		<meta charset="utf-8" />
 	</head>
 	<body>
 		<slot />
@@ -39,10 +40,26 @@
 	}
 
 	p {
-		color: #888;
-		font-size: 0.8rem;
+		color: #666;
+		font-size: 0.9rem;
 		line-height: 1.5;
 		margin: 0;
 		text-wrap: pretty;
+	}
+
+	@media print {
+		.no-print {
+			display: none !important;
+		}
+	}
+
+	.print {
+		display: none !important;
+	}
+
+	@media print {
+		.print {
+			display: block !important;
+		}
 	}
 </style>

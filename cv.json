@@ -1,36 +1,52 @@
 {
   "basics": {
     "name": "Jared Flores Martinez",
-    "label": "Fullstack developer con mas de 15 anos de experiencia",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Alan_Turing_%281912-1954%29_in_1936_at_Princeton_University_%28b%26w%29.jpg",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
+    "label": "Backend Engineer | AI & Cybersecurity Enthusiast",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQENe51dqnKNQA/profile-displayphoto-shrink_800_800/B56ZOOTohxGgAc-/0/1733259332797?e=1753920000&v=beta&t=mjweGuLmumVWP0Rdkw96KzhRiCz91LQ_NXeHKt8rVkE",
+    "email": "jaredfm.dev@gmail.com",
+    "phone": "614-100-81-60",
     "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "summary": "Ingeniero Backend con experiencia en desarrollo de sistemas escalables y seguros utilizando Node.js y Python. Apasionado por la Inteligencia Artificial y la Ciberseguridad, con enfoque en la automatización, eficiencia y protección de sistemas. Familiarizado con entornos Linux y especializado en la creacion de entornos reproducibles y portables usando Docker. Me motiva aprender constantemente y aplicar soluciones innovadoras que integren desarrollo backend, IA y prácticas seguras desde el diseño.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Chihuahua",
+      "countryCode": "MX",
+      "region": "Chihuahua"
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "https://twitter.com/john"
-    }]
-  },
-  "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "jflores24-dev",
+        "url": "https://github.com/jflores24-dev"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Jared Flores",
+        "url": "https://www.linkedin.com/in/jared-flores-2088172b4"
+      }
     ]
-  }],
+  },
+  "work": [
+    {
+      "name": "AutoZone",
+      "position": "Frontend Developer",
+      "url": "",
+      "startDate": "2023-12-01",
+      "endDate": "2024-02-15",
+      "summary": "Desarrollo y mantenimiento de interfaces de usuario usando Tailwind CSS, HTML Y Vanilla JavaScript.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Ecosat",
+      "position": "Data Enginner",
+      "url": "https://company.com",
+      "startDate": "2025-01-06",
+      "endDate": null,
+      "summary": "Desarrollo y mantenimiento de pipelines de datos en Python, automatización de procesos en Dagster, elaboración de modelos de deep learning y tableros en Power BI.",
+      "highlights": ["Started the company"]
+    }
+  ],
   "volunteer": [{
     "organization": "Organization",
     "position": "Volunteer",
@@ -73,15 +89,63 @@
     "url": "https://publication.com",
     "summary": "Description…"
   }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "keywords": [
+        "IA",
+        "Web development",
+        "Backend"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advanced",
+      "keywords": [
+        "Backend",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Mid",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Mid",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Advanced",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Advanced",
+      "keywords": [
+        "DevOps",
+        "Linux",
+        "Deployment"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Advanced",
+      "keywords": [
+        "OS",
+        "Bash"
+      ]
+    }
+  ],
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
@@ -97,14 +161,17 @@
     "name": "Jane Doe",
     "reference": "Reference…"
   }],
-  "projects": [{
-    "name": "Project",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
-  }]
+  "projects": [
+    {
+      "name": "Agenda telefonica",
+      "startDate": "2024-06-01",
+      "endDate": "2021-07-01",
+      "description": "CRUD para numeros telefonicos desarrollada con React JS, Express JS y MongoDB usando Mongoose como ODM.",
+      "highlights": [
+        "Mi primero proyecto funcional"
+      ],
+      "url": "https://phonebookbackend101.fly.dev/",
+      "isActive": false
+    }
+  ]
 }
